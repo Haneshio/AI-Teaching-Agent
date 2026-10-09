@@ -1,0 +1,22 @@
+# 不提交 Python 缓存文件
+__pycache__/
+*.pyc
+
+# 不提交环境变量文件，比如数据库密码、API Key
+.env
+
+# 不提交 PyCharm 配置
+.idea/
+
+# 不提交 pytest 缓存
+.pytest_cache/
+
+# 不提交上传的文件
+backend/data/uploads/
+
+# 不提交 Chroma 向量数据库文件
+backend/data/chroma/
+
+# 不提交日志
+*.log
+logs/
